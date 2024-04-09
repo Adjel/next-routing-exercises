@@ -1,5 +1,9 @@
-'use client';
-import React from 'react';
+"use client";
+import React from "react";
+
+const route = "/exercises/02-flash-messages";
+
+function handleSubmit() {}
 
 function ContactPage() {
   return (
@@ -11,7 +15,7 @@ function ContactPage() {
         <label htmlFor="message">Message:</label>
         <textarea id="message" />
 
-        <button>Submit</button>
+        <button onClick={handleSubmit}>Submit</button>
       </form>
     </main>
   );
